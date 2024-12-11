@@ -8,7 +8,7 @@ const app = express();
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true,
 // });
-mongoose.connect("mongodb://localhost:27017/restful_db", {
+mongoose.connect("mongodb+srv://rice:raisfatihulihsan@rice-cluster.jo3d8.mongodb.net/?retryWrites=true&w=majority&appName=rice-cluster", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
